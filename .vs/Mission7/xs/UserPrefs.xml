@@ -1,0 +1,59 @@
+﻿<Properties StartupConfiguration="{D00EBE15-602F-46C0-ACF7-B273ACC00485}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Mission7/Views/Shared/Components/Types/Default.cshtml">
+    <Files>
+      <File FileName="Mission7/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="Mission7/Infrastructure/PaginationTagHelper.cs" Line="1" Column="1" />
+      <File FileName="Mission7/Infrastructure/SessionExtension.cs" Line="6" Column="19" />
+      <File FileName="Mission7/Infrastructure/UrlExtensions.cs" Line="9" Column="109" />
+      <File FileName="Mission7/Models/Basket.cs" Line="15" Column="35" />
+      <File FileName="Mission7/Models/Book.cs" Line="1" Column="1" />
+      <File FileName="Mission7/Pages/_DonateLayout.cshtml" Line="16" Column="11" />
+      <File FileName="Mission7/Pages/_ViewImports.cshtml" Line="4" Column="13" />
+      <File FileName="Mission7/Pages/_ViewStart.cshtml" Line="4" Column="1" />
+      <File FileName="Mission7/Pages/AddBook.cshtml" Line="37" Column="1" />
+      <File FileName="Mission7/Pages/AddBook.cshtml.cs" Line="19" Column="25" />
+      <File FileName="Mission7/Models/BookContext.cs" Line="1" Column="1" />
+      <File FileName="Mission7/Models/EFBookRepository.cs" Line="1" Column="1" />
+      <File FileName="Mission7/Models/ErrorViewModel.cs" Line="1" Column="1" />
+      <File FileName="Mission7/Models/IBookRepository.cs" Line="1" Column="1" />
+      <File FileName="Mission7/Views/_ViewImports.cshtml" Line="1" Column="1" />
+      <File FileName="Mission7/Views/_ViewStart.cshtml" Line="1" Column="1" />
+      <File FileName="Mission7/Startup.cs" Line="50" Column="12" />
+      <File FileName="Mission7/Program.cs" Line="16" Column="1" />
+      <File FileName="Mission7/Views/Shared/Components/Types/Default.cshtml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Mission7" expanded="True">
+            <Node name="Mission7" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="AddBook.cshtml" expanded="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Shared" expanded="True">
+                  <Node name="Components" expanded="True">
+                    <Node name="Types" expanded="True">
+                      <Node name="Default.cshtml" selected="True" />
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../../../../../Projects/WaterProject/WaterProject/Models/EFWaterProjectRepository.cs" line="9" column="29" endLine="9" endColumn="48" offsetX="-1" offsetY="-1" expression="WaterProjectContext" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Mission7 PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
