@@ -230,4 +230,5 @@
 /Users/kyliefromm/Documents/GitHub/Mission8/Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/_AddBookLayout.cshtml.g.cs
 /Users/kyliefromm/Documents/GitHub/Mission8/Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewImports.cshtml.g.cs
 /Users/kyliefromm/Documents/GitHub/Mission8/Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewStart.cshtml.g.cs
-/Users/kyliefromm/Documents/GitHub/Mission8/Mission7/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/Categories/Default.cshtml.g.cs
+/Users/kyliefromm/Documents/GitHub/Mission8/Mission7/obj/Debug/netcoreapp3.1/Razor/Views/Shared/BookSummary.cshtml.g.cs
+/Users/kyliefromm/Documents/GitHub/Mission8/Mission7/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/Category/Default.cshtml.g.cs
