@@ -58,6 +58,7 @@ namespace Mission7
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+            app.UseSession();
 
             app.UseRouting();
 
