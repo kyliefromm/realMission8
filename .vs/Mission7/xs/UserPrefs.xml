@@ -1,43 +1,42 @@
 ﻿<Properties StartupConfiguration="{D00EBE15-602F-46C0-ACF7-B273ACC00485}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Mission7/Pages/AddBook.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Mission7/Models/IBookRepository.cs">
     <Files>
       <File FileName="Mission7/Pages/AddBook.cshtml.cs" Line="35" Column="1" />
       <File FileName="Mission7/Views/Home/Index.cshtml" />
-      <File FileName="Mission7/Startup.cs" Line="61" Column="30" />
-      <File FileName="Mission7/Infrastructure/PaginationTagHelper.cs" Line="1" Column="1" />
+      <File FileName="Mission7/Startup.cs" />
+      <File FileName="Mission7/Infrastructure/PaginationTagHelper.cs" />
       <File FileName="Mission7/Controllers/HomeController.cs" Line="1" Column="1" />
-      <File FileName="Mission7/Infrastructure/SessionExtension.cs" Line="1" Column="1" />
-      <File FileName="Mission7/Infrastructure/UrlExtensions.cs" Line="1" Column="1" />
-      <File FileName="Mission7/Models/Basket.cs" Line="1" Column="1" />
-      <File FileName="Mission7/Views/Shared/Components/Category/Default.cshtml" Line="1" Column="1" />
-      <File FileName="Mission7/Views/Shared/BookSummary.cshtml" Line="1" Column="1" />
-      <File FileName="Mission7/Views/_ViewImports.cshtml" Line="1" Column="1" />
-      <File FileName="Mission7/Views/_ViewStart.cshtml" Line="1" Column="1" />
-      <File FileName="Mission7/Views/Shared/Error.cshtml" Line="1" Column="1" />
-      <File FileName="Mission7/Pages/AddBook.cshtml" Line="1" Column="1" />
+      <File FileName="Mission7/Infrastructure/SessionExtension.cs" />
+      <File FileName="Mission7/Infrastructure/UrlExtensions.cs" />
+      <File FileName="Mission7/Models/Basket.cs" />
+      <File FileName="Mission7/Views/Shared/Components/Category/Default.cshtml" />
+      <File FileName="Mission7/Views/Shared/BookSummary.cshtml" Line="40" Column="11" />
+      <File FileName="Mission7/Views/_ViewImports.cshtml" />
+      <File FileName="Mission7/Views/_ViewStart.cshtml" />
+      <File FileName="Mission7/Views/Shared/Error.cshtml" />
+      <File FileName="Mission7/Pages/AddBook.cshtml" Line="42" Column="1" />
+      <File FileName="Mission7/Models/BookContext.cs" />
+      <File FileName="Mission7/Models/Book.cs" />
+      <File FileName="Mission7/Models/EFBookRepository.cs" />
+      <File FileName="Mission7/Models/ViewModels/BooksViewModel.cs" />
+      <File FileName="Mission7/Pages/_AddBookLayout.cshtml" Line="10" Column="82" />
+      <File FileName="Mission7/Pages/_ViewImports.cshtml" />
+      <File FileName="Mission7/Views/Shared/_Layout.cshtml" Line="7" Column="1" />
+      <File FileName="Mission7/Components/TypesViewComponents.cs" Line="22" Column="31" />
+      <File FileName="Mission7/Models/IBookRepository.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Mission7" expanded="True">
             <Node name="Mission7" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Infrastructure" expanded="True" />
+              <Node name="Components" expanded="True" />
               <Node name="Models" expanded="True">
                 <Node name="ViewModels" expanded="True" />
+                <Node name="IBookRepository.cs" selected="True" />
               </Node>
-              <Node name="Pages" expanded="True">
-                <Node name="AddBook.cshtml" expanded="True" selected="True" />
-              </Node>
-              <Node name="Properties" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True" />
-                <Node name="Shared" expanded="True">
-                  <Node name="Components" expanded="True">
-                    <Node name="Category" expanded="True" />
-                  </Node>
-                </Node>
-              </Node>
+              <Node name="Pages" expanded="True" />
+              <Node name="Views" expanded="True" />
             </Node>
           </Node>
         </State>

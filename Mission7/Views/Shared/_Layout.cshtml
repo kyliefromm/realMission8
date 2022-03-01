@@ -31,15 +31,19 @@
         </nav>
     </header>
 
-    @*<div class="row m-1 p-1">
-      
-        <div class="col-9">*@
-
+    <div class="row m-1 p-1">
+        <div class="col-3">
+            <vc:category></vc:category>
+        </div>
+        <div class="col-9">
+    
             <div class="container">
                 <main role="main" class="pb-3">
                     @RenderBody()
                 </main>
             </div>
+        </div>
+    </div>
 
             <footer class="border-top footer text-muted">
                 <div class="container">

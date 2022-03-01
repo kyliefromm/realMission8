@@ -12,6 +12,7 @@
     <None Remove="Pages\" />
     <None Remove="Views\Shared\Components\" />
     <None Remove="Views\Shared\Components\Types\" />
+    <None Remove="Components\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Infrastructure\" />
@@ -19,6 +20,7 @@
     <Folder Include="Pages\" />
     <Folder Include="Views\Shared\Components\" />
     <Folder Include="Views\Shared\Components\Category\" />
+    <Folder Include="Components\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.22">
