@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
+using Mission7.Controllers;
 
 namespace Mission7.Models
 {
@@ -9,11 +10,13 @@ namespace Mission7.Models
         {
         }
 
-        public BookContext (DbContextOptions<BookContext> options) : base(options)
+        public BookContext(DbContextOptions<BookContext> options) : base(options)
         {
 
         }
 
         public DbSet<Book> Books { get; set; }
+        public DbSet<BuyBook> BuyBooks { get; set; }
     }
+
 }
