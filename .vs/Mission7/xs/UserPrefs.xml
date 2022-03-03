@@ -1,50 +1,26 @@
 ﻿<Properties StartupConfiguration="{D00EBE15-602F-46C0-ACF7-B273ACC00485}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Mission7/Pages/AddBook.cshtml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Mission7/Controllers/HomeController.cs">
     <Files>
-      <File FileName="Mission7/Pages/AddBook.cshtml.cs" Line="35" Column="1" />
-      <File FileName="Mission7/Views/Home/Index.cshtml" />
-      <File FileName="Mission7/Startup.cs" />
-      <File FileName="Mission7/Infrastructure/PaginationTagHelper.cs" />
-      <File FileName="Mission7/Controllers/HomeController.cs" />
-      <File FileName="Mission7/Infrastructure/SessionExtension.cs" />
-      <File FileName="Mission7/Infrastructure/UrlExtensions.cs" />
-      <File FileName="Mission7/Models/Basket.cs" />
-      <File FileName="Mission7/Views/Shared/Components/Category/Default.cshtml" />
-      <File FileName="Mission7/Views/Shared/BookSummary.cshtml" />
-      <File FileName="Mission7/Views/_ViewImports.cshtml" />
-      <File FileName="Mission7/Views/_ViewStart.cshtml" />
-      <File FileName="Mission7/Views/Shared/Error.cshtml" />
-      <File FileName="Mission7/Pages/AddBook.cshtml" />
-      <File FileName="Mission7/Models/BookContext.cs" />
-      <File FileName="Mission7/Models/Book.cs" />
-      <File FileName="Mission7/Models/EFBookRepository.cs" />
-      <File FileName="Mission7/Models/ViewModels/BooksViewModel.cs" />
-      <File FileName="Mission7/Pages/_AddBookLayout.cshtml" />
-      <File FileName="Mission7/Pages/_ViewImports.cshtml" />
-      <File FileName="Mission7/Views/Shared/_Layout.cshtml" />
-      <File FileName="Mission7/Components/TypesViewComponents.cs" />
-      <File FileName="Mission7/Models/IBookRepository.cs" />
-      <File FileName="Mission7/Controllers/BuyBook.cs" />
-      <File FileName="Mission7/Views/BuyBook/Checkout.cshtml" />
-      <File FileName="Mission7/Models/IDonationRepository.cs" />
-      <File FileName="Mission7/Models/ViewModels/BuyBook.cs" />
+      <File FileName="Mission7/Models/EFBuyBookRepository.cs" Line="9" Column="6" />
+      <File FileName="Mission7/Models/IBuyBookRepository.cs" Line="13" Column="13" />
+      <File FileName="Mission7/Controllers/BuyBook.cs" Line="37" Column="46" />
+      <File FileName="Mission7/Models/Basket.cs" Line="20" Column="14" />
+      <File FileName="Mission7/Controllers/HomeController.cs" Line="26" Column="1" />
+      <File FileName="Mission7/Pages/BuyBookConfirmaitons.cshtml" Line="1" Column="1" />
+      <File FileName="Mission7/Models/BuyBook.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Mission7" expanded="True">
             <Node name="Mission7" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="ViewModels" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="HomeController.cs" selected="True" />
               </Node>
-              <Node name="Pages" expanded="True">
-                <Node name="AddBook.cshtml" expanded="True">
-                  <Node name="AddBook.cshtml.cs" selected="True" />
-                </Node>
-              </Node>
+              <Node name="Pages" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="BuyBook" expanded="True" />
+                <Node name="Shared" expanded="True" />
               </Node>
             </Node>
           </Node>

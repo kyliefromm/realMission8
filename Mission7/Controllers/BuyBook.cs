@@ -1,44 +1,50 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Mission7.Models;
+using Mission7.Models.ViewModels;
 
 namespace Mission7.Controllers
 {
     public class BuyBook : Controller
     {
 
-    private IDonationRepository repo { get; set; }
-    private Basket basket { get; set; }
-    public DonationController(IDonationRepository temp, Basket b)
-    {
-        repo = temp;
-        basket = b;
-    }
-    // GET: /<controller>/
-    [HttpGet]
-    public IActionResult Checkout()
-    {
-        return View(new Donation());
-    }
-
-    [HttpPost]
-    public IActionResult Checkout(Donation donation)
-    {
-        if (basket.Items.Count() == 0)
+        private IBuyBookRepository repo { get; set; }
+        private Basket basket { get; set; }
+        public BuyBook(IBuyBookRepository temp, Basket b)
         {
-            ModelState.AddModelError("", "Sorry, your basket is empty!");
+            repo = temp;
+            basket = b;
         }
-        if (ModelState.IsValid)
+        // GET: /<controller>/
+        [HttpGet]
+        public IActionResult Checkout()
         {
-            donation.Lines = basket.Items.ToArray();
-            repo.SaveDonation(donation);
-            basket.ClearBasket();
-
-
-            return RedirectToPage("/donationConfirmation");
+            return View(new Book());
         }
-        else
+
+        [HttpPost]
+        public IActionResult Checkout(Book book)
         {
-            return View();
+            if (basket.Items.Count() == 0)
+            {
+                ModelState.AddModelError("", "Sorry, your basket is empty!");
+            }
+            if (ModelState.IsValid)
+            {
+                book.Lines = basket.Items.ToArray();
+                repo.SaveBook(book);
+                basket.ClearBasket();
+
+
+                return RedirectToPage("/donationConfirmation");
+            }
+            else
+            {
+                return View();
+            }
         }
     }
 }
