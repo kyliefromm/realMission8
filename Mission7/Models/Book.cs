@@ -16,5 +16,6 @@ namespace Mission7.Models
         public string Category { get; set; }
         public int PageCount { get; set; }
         public double Price { get; set; }
+        public BasketLineItem[] Lines { get; internal set; }
     }
 }

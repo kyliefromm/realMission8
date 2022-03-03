@@ -14,7 +14,7 @@
         "outputPath": "/Users/kyliefromm/Documents/GitHub/Mission8/Mission7/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/kyliefromm/.config/NuGet/NuGet.Config"
+          "/Users/kyliefromm/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
