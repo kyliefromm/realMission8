@@ -17,6 +17,9 @@
 =======
     <None Remove="Views\BuyBook\" />
     <None Remove="Pages\Admin\" />
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
@@ -27,6 +30,11 @@
     <Folder Include="Views\Shared\Components\Category\" />
     <Folder Include="Components\" />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+    <Folder Include="Views\Purchase\" />
+    <Folder Include="Pages\Admin\" />
+>>>>>>> Stashed changes
 =======
     <Folder Include="Views\Purchase\" />
     <Folder Include="Pages\Admin\" />

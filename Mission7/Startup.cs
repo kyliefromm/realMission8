@@ -35,7 +35,10 @@ namespace Mission7
 
             services.AddScoped<IBookRepository, EFBookRepository>();
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
             services.AddScoped<IPurchaseRepository, EFPurchaseRepository>();
 
 >>>>>>> Stashed changes
@@ -50,6 +53,9 @@ namespace Mission7
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
             services.AddServerSideBlazor();
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         }
 

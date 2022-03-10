@@ -14,11 +14,15 @@ namespace Mission7.Pages
     {
         private IBookRepository repo { get; set; }
 
+<<<<<<< Updated upstream:Mission7/Pages/Purchase.cshtml.cs
 <<<<<<< Updated upstream:Mission7/Pages/AddBook.cshtml.cs
         public AddBookModel(IBookRepository temp)
 =======
         public PurchaseModel(IBookRepository temp, Basket  b)
 >>>>>>> Stashed changes:Mission7/Pages/Purchase.cshtml.cs
+=======
+        public PurchaseModel(IBookRepository temp, Basket  b)
+>>>>>>> Stashed changes:Mission7/Pages/AddBook.cshtml.cs
         {
             repo = temp;
         }

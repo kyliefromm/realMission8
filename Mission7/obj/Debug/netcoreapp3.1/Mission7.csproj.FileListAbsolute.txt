@@ -231,7 +231,10 @@
 /Users/kyliefromm/Documents/GitHub/Mission8/Mission7/obj/Debug/netcoreapp3.1/Razor/Views/Shared/BookSummary.cshtml.g.cs
 /Users/kyliefromm/Documents/GitHub/Mission8/Mission7/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/Category/Default.cshtml.g.cs
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 /Users/kyliefromm/Documents/GitHub/Mission8/Mission7/obj/Debug/netcoreapp3.1/Mission7.RazorComponent.input.cache
 /Users/kyliefromm/Documents/GitHub/Mission8/Mission7/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Admin/AdminLayout.razor.g.cs
 /Users/kyliefromm/Documents/GitHub/Mission8/Mission7/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Admin/Books.razor.g.cs
@@ -252,4 +255,7 @@
 /Users/kyliefromm/Documents/GitHub/Mission8/Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/_PurchaseLayout.cshtml.g.cs
 /Users/kyliefromm/Documents/GitHub/Mission8/Mission7/obj/Debug/netcoreapp3.1/Razor/Views/Purchase/Checkout.cshtml.g.cs
 /Users/kyliefromm/Documents/GitHub/Mission8/Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/PurchaseConfirmations.cshtml.g.cs
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes

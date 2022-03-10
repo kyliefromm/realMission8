@@ -1,5 +1,6 @@
 ﻿<Properties StartupConfiguration="{D00EBE15-602F-46C0-ACF7-B273ACC00485}|Default">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   <MonoDevelop.Ide.Workbench ActiveDocument="Mission7/Models/IBookRepository.cs">
     <Files>
       <File FileName="Mission7/Pages/AddBook.cshtml.cs" Line="35" Column="1" />
@@ -26,6 +27,8 @@
       <File FileName="Mission7/Components/TypesViewComponents.cs" Line="22" Column="31" />
       <File FileName="Mission7/Models/IBookRepository.cs" Line="1" Column="1" />
 =======
+=======
+>>>>>>> Stashed changes
   <MonoDevelop.Ide.Workbench ActiveDocument="Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Routed.razor.g.cs">
     <Files>
       <File FileName="Mission7/Pages/BuyBookConfirmaitons.cshtml" Line="1" Column="1" />
@@ -63,6 +66,9 @@
       <File FileName="Mission7/Infrastructure/UrlExtensions.cs" Line="12" Column="1" />
       <File FileName="Mission7/Views/Shared/BookSummary.cshtml" Line="40" Column="11" />
       <File FileName="Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Routed.razor.g.cs" Line="88" Column="19" />
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     </Files>
     <Pads>
@@ -70,6 +76,7 @@
         <State name="__root__">
           <Node name="Mission7" expanded="True">
             <Node name="Mission7" expanded="True">
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
               <Node name="Components" expanded="True" />
               <Node name="Models" expanded="True">
@@ -79,6 +86,8 @@
               <Node name="Pages" expanded="True" />
               <Node name="Views" expanded="True" />
 =======
+=======
+>>>>>>> Stashed changes
               <Node name="Controllers" expanded="True" />
               <Node name="Infrastructure" expanded="True" />
               <Node name="Models" expanded="True">
@@ -98,6 +107,9 @@
                 </Node>
               </Node>
               <Node name="wwwroot" expanded="True" />
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
             </Node>
           </Node>
