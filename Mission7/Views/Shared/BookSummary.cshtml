@@ -27,13 +27,13 @@
             <li>Number of Pages: @Model.PageCount</li>
         </ul>
 
-        <form method="post" asp-page="/AddBook">
+        <form method="post" asp-page="/Purchase">
 
             <input type="hidden" asp-for="@Model.BookID" />
             <input type="hidden" name="returnUrl" value="@ViewContext.HttpContext.Request.PathAndQuery()" />
-            <span class="badge badge-pill badge-primary" style="float:left">
->
-                <button type="submit" class="btn btn success btn-sm float -end">Buy Book</button>
+
+            <span class="card-text">
+                <button type="submit" class="btn btn success btn-sm float -end">Purchase Book</button>
             </span>
 
         </form>
