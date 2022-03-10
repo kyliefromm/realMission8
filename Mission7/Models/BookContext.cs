@@ -15,5 +15,13 @@ namespace Mission7.Models
         }
 
         public DbSet<Book> Books { get; set; }
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+        public DbSet<Purchase> Purchases { get; set; }
+>>>>>>> Stashed changes
+=======
+        public DbSet<Purchase> Purchases { get; set; }
+>>>>>>> Stashed changes
     }
 }

@@ -1,6 +1,14 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
   "dgSpecHash": "9+j7/P7zE+SOh1t2BBw4LEyFoB3e+/YGwx64EQiVwo9z1kjARQWgiQCWHy7Lsdkt3+/xCUYfVxa0UZzyXda9ww==",
+=======
+  "dgSpecHash": "tukM4VK+PblLVxnE17cssuFYKPQnGqB2+46NEhw8/eGQG05zIetPjx+8Ux+UzDYjKeUUckO6A4HDY8Ya4giyyw==",
+>>>>>>> Stashed changes
+=======
+  "dgSpecHash": "tukM4VK+PblLVxnE17cssuFYKPQnGqB2+46NEhw8/eGQG05zIetPjx+8Ux+UzDYjKeUUckO6A4HDY8Ya4giyyw==",
+>>>>>>> Stashed changes
   "success": true,
   "projectFilePath": "/Users/kyliefromm/Documents/GitHub/Mission8/Mission7/Mission7.csproj",
   "expectedPackageFiles": [

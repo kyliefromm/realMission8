@@ -226,9 +226,36 @@
 /Users/kyliefromm/Documents/GitHub/Mission8/Mission7/obj/Debug/netcoreapp3.1/Mission7.dll
 /Users/kyliefromm/Documents/GitHub/Mission8/Mission7/obj/Debug/netcoreapp3.1/Mission7.pdb
 /Users/kyliefromm/Documents/GitHub/Mission8/Mission7/obj/Debug/netcoreapp3.1/Mission7.genruntimeconfig.cache
-/Users/kyliefromm/Documents/GitHub/Mission8/Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/AddBook.cshtml.g.cs
-/Users/kyliefromm/Documents/GitHub/Mission8/Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/_AddBookLayout.cshtml.g.cs
 /Users/kyliefromm/Documents/GitHub/Mission8/Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewImports.cshtml.g.cs
 /Users/kyliefromm/Documents/GitHub/Mission8/Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewStart.cshtml.g.cs
 /Users/kyliefromm/Documents/GitHub/Mission8/Mission7/obj/Debug/netcoreapp3.1/Razor/Views/Shared/BookSummary.cshtml.g.cs
 /Users/kyliefromm/Documents/GitHub/Mission8/Mission7/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/Category/Default.cshtml.g.cs
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+=======
+>>>>>>> Stashed changes
+/Users/kyliefromm/Documents/GitHub/Mission8/Mission7/obj/Debug/netcoreapp3.1/Mission7.RazorComponent.input.cache
+/Users/kyliefromm/Documents/GitHub/Mission8/Mission7/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Admin/AdminLayout.razor.g.cs
+/Users/kyliefromm/Documents/GitHub/Mission8/Mission7/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Admin/Books.razor.g.cs
+/Users/kyliefromm/Documents/GitHub/Mission8/Mission7/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Admin/PurchaseTable.razor.g.cs
+/Users/kyliefromm/Documents/GitHub/Mission8/Mission7/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Admin/Routed.razor.g.cs
+/Users/kyliefromm/Documents/GitHub/Mission8/Mission7/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Admin/_imports.razor.g.cs
+/Users/kyliefromm/Documents/GitHub/Mission8/Mission7/obj/Debug/netcoreapp3.1/Mission7.RazorComponent.output.cache
+/Users/kyliefromm/Documents/GitHub/Mission8/Mission7/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Admin/Purchases.razor.g.cs
+/Users/kyliefromm/Documents/GitHub/Mission8/Mission7/obj/Debug/netcoreapp3.1/RazorDeclaration/Mission7.dll
+/Users/kyliefromm/Documents/GitHub/Mission8/Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/AdminLayout.razor.g.cs
+/Users/kyliefromm/Documents/GitHub/Mission8/Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Books.razor.g.cs
+/Users/kyliefromm/Documents/GitHub/Mission8/Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Purchases.razor.g.cs
+/Users/kyliefromm/Documents/GitHub/Mission8/Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/PurchaseTable.razor.g.cs
+/Users/kyliefromm/Documents/GitHub/Mission8/Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Routed.razor.g.cs
+/Users/kyliefromm/Documents/GitHub/Mission8/Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/_imports.razor.g.cs
+/Users/kyliefromm/Documents/GitHub/Mission8/Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Index.cshtml.g.cs
+/Users/kyliefromm/Documents/GitHub/Mission8/Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/Purchase.cshtml.g.cs
+/Users/kyliefromm/Documents/GitHub/Mission8/Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/_PurchaseLayout.cshtml.g.cs
+/Users/kyliefromm/Documents/GitHub/Mission8/Mission7/obj/Debug/netcoreapp3.1/Razor/Views/Purchase/Checkout.cshtml.g.cs
+/Users/kyliefromm/Documents/GitHub/Mission8/Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/PurchaseConfirmations.cshtml.g.cs
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes

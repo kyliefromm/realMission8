@@ -34,11 +34,29 @@ namespace Mission7
             });
 
             services.AddScoped<IBookRepository, EFBookRepository>();
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+=======
+>>>>>>> Stashed changes
+            services.AddScoped<IPurchaseRepository, EFPurchaseRepository>();
+
+>>>>>>> Stashed changes
             services.AddRazorPages();
 
             services.AddDistributedMemoryCache();
             services.AddSession();
 
+<<<<<<< Updated upstream
+=======
+            services.AddScoped<Basket>(x => SessionBasket.GetBasket(x));
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
+            services.AddServerSideBlazor();
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
         }
 
 
@@ -66,19 +84,22 @@ namespace Mission7
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllerRoute("categorypage", "{category}/Page{pageNum}", new { Controller = "Home", action = "Index" });
+                endpoints.MapControllerRoute("categorypage", "{bookCategory}/Page{pageNum}", new { Controller = "Home", action = "Index" });
 
                 endpoints.MapControllerRoute(
                     name: "Paging",
                     pattern: "{pageNum}",
                     defaults: new { Controller = "Home", action = "Index", pageNum = 1 });
 
-                endpoints.MapControllerRoute("type", "{Category}",
+                endpoints.MapControllerRoute("type", "{bookCategory}",
                     new { Controller = "Home", action = "Index", pageNum = 1 });
 
                 endpoints.MapDefaultControllerRoute();
 
                 endpoints.MapRazorPages();
+
+                endpoints.MapBlazorHub();
+                endpoints.MapFallbackToPage("/admin/{*catchall}", "/Admin/Index");
             });
         }
     }

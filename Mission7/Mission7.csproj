@@ -13,6 +13,14 @@
     <None Remove="Views\Shared\Components\" />
     <None Remove="Views\Shared\Components\Types\" />
     <None Remove="Components\" />
+<<<<<<< Updated upstream
+=======
+    <None Remove="Views\BuyBook\" />
+    <None Remove="Pages\Admin\" />
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Infrastructure\" />
@@ -21,6 +29,16 @@
     <Folder Include="Views\Shared\Components\" />
     <Folder Include="Views\Shared\Components\Category\" />
     <Folder Include="Components\" />
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+    <Folder Include="Views\Purchase\" />
+    <Folder Include="Pages\Admin\" />
+>>>>>>> Stashed changes
+=======
+    <Folder Include="Views\Purchase\" />
+    <Folder Include="Pages\Admin\" />
+>>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.22">

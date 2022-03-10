@@ -38,9 +38,10 @@ namespace Mission7.Models
     }
 
 
-
+    
     public class BasketLineItem
     {
+        [Key]
         public int LineID { get; set; }
         public Book Book { get; set; }
         public int Quantity { get; set; }

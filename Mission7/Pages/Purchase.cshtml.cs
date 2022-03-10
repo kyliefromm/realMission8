@@ -10,11 +10,19 @@ using Mission7.Models;
 
 namespace Mission7.Pages
 {
-    public class AddBookModel : PageModel
+    public class PurchaseModel : PageModel
     {
         private IBookRepository repo { get; set; }
 
+<<<<<<< Updated upstream:Mission7/Pages/Purchase.cshtml.cs
+<<<<<<< Updated upstream:Mission7/Pages/AddBook.cshtml.cs
         public AddBookModel(IBookRepository temp)
+=======
+        public PurchaseModel(IBookRepository temp, Basket  b)
+>>>>>>> Stashed changes:Mission7/Pages/Purchase.cshtml.cs
+=======
+        public PurchaseModel(IBookRepository temp, Basket  b)
+>>>>>>> Stashed changes:Mission7/Pages/AddBook.cshtml.cs
         {
             repo = temp;
         }

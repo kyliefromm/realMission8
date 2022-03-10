@@ -1,0 +1,76 @@
+﻿@page
+@model Mission7.Pages.PurchaseModel
+@{
+}
+<h2>Your Basket</h2>
+
+<table class="table table-bordered tale=striped">
+    <thead>
+        <tr>
+            <th>Items</th>
+            <th>Quantity</th>
+            <th>Cost</th>
+            <th>Subtotal</th>
+        </tr>
+    </thead>
+
+    <tbody>
+<<<<<<< Updated upstream:Mission7/Pages/AddBook.cshtml
+        @foreach(var i in Model.basket.Items)
+            {
+                <tr>
+                    <td>@i.Book.Title</td>
+                    <td>@i.Quantity</td>
+                    <td>@i.Book.Price</td>
+                    <td>@(i.Quantity * i.Book.Price)</td>
+                </tr>
+                
+            }
+=======
+        @foreach (var i in Model.basket.Items)
+        {
+            <tr>
+                <td>@i.Book.Title</td>
+                <td>@i.Quantity</td>
+                <td>@i.Book.Price</td>
+                <td>@((i.Quantity * i.Book.Price).ToString("c"))</td>
+
+                <td class="text-center">
+                    <form method="post" asp-page-handler="Remove">
+                        <input type="hidden" name="PurchaseId" value="@i.Book.BookID" />
+                        <input type="hidden" name="returnUrl" value="@Model.ReturnUrl" />
+                        <button type="submit" class="btn btn-sm btn-danger">Remove</button>
+                    </form>
+                </td>
+
+            </tr>
+        }
+>>>>>>> Stashed changes:Mission7/Pages/Purchase.cshtml
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td colspan="3">Total:</td>
+            <td>@Model.basket.CalculateTotal().ToString("c")</td>
+        </tr>
+    </tfoot>
+</table>
+
+<div>
+<<<<<<< Updated upstream:Mission7/Pages/Purchase.cshtml
+<<<<<<< Updated upstream:Mission7/Pages/AddBook.cshtml
+    <span class="badge badge-pill badge-primary" style="float:right">
+
+        <a class="btn btn-priamry" href="@Model.ReturnUrl">Back to Books</a>
+
+    </span>
+=======
+    <a class="btn btn-primary" href="@Model.ReturnUrl">Continue Purchasing</a>
+    <a class="btn btn-primary" asp-controller="Purchase" asp-action="Checkout">Checkout</a>
+>>>>>>> Stashed changes:Mission7/Pages/Purchase.cshtml
+=======
+    <a class="btn btn-primary" href="@Model.ReturnUrl">Continue Purchasing</a>
+    <a class="btn btn-primary" asp-controller="Purchase" asp-action="Checkout">Checkout</a>
+>>>>>>> Stashed changes:Mission7/Pages/AddBook.cshtml
+</div>
+
