@@ -34,7 +34,7 @@ namespace Mission7
             });
 
             services.AddScoped<IBookRepository, EFBookRepository>();
-            services.AddScoped<IBuyBookRepository, EFBuyBookRepository>();
+            services.AddScoped<IPurchaseRepository, EFPurchaseRepository>();
 
             services.AddRazorPages();
 

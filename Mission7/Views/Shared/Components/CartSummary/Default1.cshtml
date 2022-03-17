@@ -1,0 +1,18 @@
+﻿@model BasketLineItem
+
+<div class="">
+    @if (Model.Lines.Count() > 0)
+    {
+        //everthing works perfectly except for the basket. I could noty get it to work. SO if you delete this pages everything works perfectly:(
+
+        <small class="navbar-text">
+            <b>Your cart:</b>
+            @Model.Lines.Sum(x => x.Quantity) item(s)
+            @Model.ComputeTotalValue().ToString("c")
+        </small>
+    }
+    <a class="btn btn-sm btn-secondary navbar-btn" asp-page="/Basket"
+              asp-route-returnurl="@ViewContext.HttpContext.Request.PathAndQuery()">
+        <i class="fa fa-shopping-cart"></i>
+    </a>
+</div>

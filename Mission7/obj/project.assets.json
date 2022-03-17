@@ -227,6 +227,9 @@
           }
         }
       },
+      "font-awesome/3.2.1.1": {
+        "type": "package"
+      },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "type": "package",
         "compile": {
@@ -774,6 +777,28 @@
         "contentFiles/any/any/wwwroot/js/bootstrap.js.map",
         "contentFiles/any/any/wwwroot/js/bootstrap.min.js",
         "contentFiles/any/any/wwwroot/js/bootstrap.min.js.map"
+      ]
+    },
+    "font-awesome/3.2.1.1": {
+      "sha512": "Aal+83TRfORswVvGgClrSZwgoQHJnre3OJNGGqU/W3gIpMN3zdLZOqzAliT0ynMb0UWKNu234yQMIe/l6kpQGA==",
+      "type": "package",
+      "path": "font-awesome/3.2.1.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/Content/font-awesome-ie7.css",
+        "content/Content/font-awesome-ie7.min.css",
+        "content/Content/font-awesome.css",
+        "content/Content/font-awesome.min.css",
+        "content/Content/font/FontAwesome.otf",
+        "content/Content/font/fontawesome-webfont.eot",
+        "content/Content/font/fontawesome-webfont.svg",
+        "content/Content/font/fontawesome-webfont.ttf",
+        "content/Content/font/fontawesome-webfont.woff",
+        "font-awesome.3.2.1.1.nupkg.sha512",
+        "font-awesome.nuspec",
+        "tools/install.ps1"
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
@@ -1517,7 +1542,8 @@
       "Microsoft.EntityFrameworkCore.Design >= 3.1.22",
       "Microsoft.EntityFrameworkCore.Sqlite >= 3.1.22",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.22",
-      "bootstrap >= 5.1.3"
+      "bootstrap >= 5.1.3",
+      "font-awesome >= 3.2.1.1"
     ]
   },
   "packageFolders": {
@@ -1533,7 +1559,7 @@
       "outputPath": "/Users/kyliefromm/Documents/GitHub/Mission8/Mission7/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/kyliefromm/.nuget/NuGet/NuGet.Config"
+        "/Users/kyliefromm/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -1580,6 +1606,10 @@
           "bootstrap": {
             "target": "Package",
             "version": "[5.1.3, )"
+          },
+          "font-awesome": {
+            "target": "Package",
+            "version": "[3.2.1.1, )"
           }
         },
         "imports": [
@@ -1600,7 +1630,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.102/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.103/RuntimeIdentifierGraph.json"
       }
     }
   }

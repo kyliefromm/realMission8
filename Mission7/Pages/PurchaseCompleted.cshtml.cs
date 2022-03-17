@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace Mission7.Pages
 {
-    public class IndexModel : PageModel
+    public class PurchaseCompletedModel : PageModel
     {
         public void OnGet()
         {

@@ -5,11 +5,11 @@ using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace Mission7.Models
 {
-    public class BuyBook
+    public class Purchase
     {
         [Key]
         [BindNever]
-        public int BuyBookId { get; set; }
+        public int PurchaseId { get; set; }
 
         [BindNever]
         public ICollection<BasketLineItem> Lines { get; set; }

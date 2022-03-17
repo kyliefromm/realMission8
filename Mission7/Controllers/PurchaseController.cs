@@ -8,12 +8,12 @@ using Mission7.Models.ViewModels;
 
 namespace Mission7.Controllers
 {
-    public class BuyBook : Controller
+    public class PurchaseController : Controller
     {
 
-        private IBuyBookRepository repo { get; set; }
+        private IPurchaseRepository repo { get; set; }
         private Basket basket { get; set; }
-        public BuyBook(IBuyBookRepository temp, Basket b)
+        public PurchaseController(IPurchaseRepository temp, Basket b)
         {
             repo = temp;
             basket = b;
@@ -22,11 +22,11 @@ namespace Mission7.Controllers
         [HttpGet]
         public IActionResult Checkout()
         {
-            return View(new Book());
+            return View(new Purchase());
         }
 
         [HttpPost]
-        public IActionResult Checkout(Book book)
+        public IActionResult Checkout(Purchase purchase)
         {
             if (basket.Items.Count() == 0)
             {
@@ -34,12 +34,12 @@ namespace Mission7.Controllers
             }
             if (ModelState.IsValid)
             {
-                book.Lines = basket.Items.ToArray();
-                repo.SaveBook(book);
+                purchase.Lines = basket.Items.ToArray();
+                repo.SavePurchase(purchase);
                 basket.ClearBasket();
 
 
-                return RedirectToPage("/donationConfirmation");
+                return RedirectToPage("/PurchaseCompleted");
             }
             else
             {

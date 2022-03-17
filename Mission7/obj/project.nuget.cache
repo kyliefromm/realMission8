@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "bfUmfns/ykTXqOdAJukpBRPDk7nbTqGcShP/CEGYzCYl1Tukqa73lZhScl4doIQEUg/K6V9+7zcXv2Ho6nrNSA==",
+  "dgSpecHash": "oaqc0X2E5nyKGk1trq9i35kvNWT/X4+FGMWc7Nf28JhSWn1cDEjrsfWMEY8o4uYEF24+CZYU4rkRy+48iqRWaw==",
   "success": true,
   "projectFilePath": "/Users/kyliefromm/Documents/GitHub/Mission8/Mission7/Mission7.csproj",
   "expectedPackageFiles": [
     "/Users/kyliefromm/.nuget/packages/bootstrap/5.1.3/bootstrap.5.1.3.nupkg.sha512",
+    "/Users/kyliefromm/.nuget/packages/font-awesome/3.2.1.1/font-awesome.3.2.1.1.nupkg.sha512",
     "/Users/kyliefromm/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/Users/kyliefromm/.nuget/packages/microsoft.bcl.hashcode/1.1.1/microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
     "/Users/kyliefromm/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",

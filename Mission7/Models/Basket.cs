@@ -12,7 +12,7 @@ namespace Mission7.Models
         public virtual void AddItem(Book boo, int qty)
         {
             BasketLineItem line = Items
-                .Where(boo => boo.Book.BookID == boo.Book.BookID)
+                .Where(b => b.Book.BookID == boo.BookID)
                 .FirstOrDefault();
 
 
@@ -52,9 +52,9 @@ namespace Mission7.Models
 
     public class BasketLineItem
     {
+        [Key]
         public int LineID { get; set; }
         public Book Book { get; set; }
         public int Quantity { get; set; }
-        //public int BookID { get; internal set; }
     }
 }
